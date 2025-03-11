@@ -3,22 +3,131 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trang Web Cá Nhân</title>
+    <title>Profile Cá Nhân</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>Thông Tin Cá Nhân</h1>
-        <img src="" alt="Hình ảnh cá nhân">
-        <p>Xin chào! Tôi là [Tên của bạn], hiện đang học tại [Tên trường].</p>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="header-content">
+            <img src="picture/image.png" alt="Avatar" class="profile-img">
+            <h1>Nguyễn Như Quỳnh</h1>
+            <p>Web Developer & UI/UX Designer</p>
+            <div class="social-links">
+                <a href="#" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" title="GitHub"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
     </header>
-    <section>
-        <h2>Quá Trình Học Tập</h2>
-        <p>Tôi đã hoàn thành các khóa học như [Danh sách các khóa học].</p>
-    </section>
-    <section>
-        <h2>Cảm Nhận Về Học Tập</h2>
-        <p>Việc học giúp tôi mở rộng kiến thức và phát triển bản thân.</p>
-    </section>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- About Section -->
+        <section class="card about">
+            <h2 class="section-title">Giới Thiệu</h2>
+            <p>Xin chào! Tôi là Nguyễn Như QuỳnhQuỳnh, một Web Developer với hơn 5 năm kinh nghiệm trong việc phát triển các ứng dụng web đẹp và có độ tương tác cao. Tôi có niềm đam mê với việc tạo ra những trải nghiệm người dùng tuyệt vời và các giải pháp kỹ thuật sáng tạo.</p>
+            <p>Tôi chuyên về phát triển front-end với HTML, CSS, JavaScript và React, cũng như có kiến thức mạnh mẽ về back-end với Node.js và PHP. Tôi luôn tìm kiếm những cơ hội để học hỏi và phát triển kỹ năng của mình.</p>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="card">
+            <h2 class="section-title">Kỹ Năng</h2>
+            <div class="skills-container">
+                <div class="skill">HTML5</div>
+                <div class="skill">CSS3</div>
+                <div class="skill">JavaScript</div>
+                <div class="skill">React</div>
+                <div class="skill">Node.js</div>
+                <div class="skill">PHP</div>
+                <div class="skill">MySQL</div>
+                <div class="skill">MongoDB</div>
+                <div class="skill">Git</div>
+                <div class="skill">UI/UX Design</div>
+                <div class="skill">Responsive Design</div>
+                <div class="skill">Figma</div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section class="card">
+            <h2 class="section-title">Kinh Nghiệm</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <h3>Senior Web Developer</h3>
+                    <div class="timeline-date">Công ty XYZ | 2021 - Hiện tại</div>
+                    <p>Phát triển và duy trì các ứng dụng web quy mô lớn. Quản lý team gồm 5 developers, triển khai các dự án quan trọng cho khách hàng doanh nghiệp.</p>
+                </div>
+                <div class="timeline-item">
+                    <h3>Web Developer</h3>
+                    <div class="timeline-date">Công ty ABC | 2018 - 2021</div>
+                    <p>Xây dựng các trang web responsive và ứng dụng web sử dụng HTML, CSS, JavaScript và React. Phối hợp với team design để tạo ra trải nghiệm người dùng tốt nhất.</p>
+                </div>
+                <div class="timeline-item">
+                    <h3>Junior Developer</h3>
+                    <div class="timeline-date">DEF Studio | 2016 - 2018</div>
+                    <p>Phát triển front-end cho các website và ứng dụng web sử dụng HTML, CSS và JavaScript. Học hỏi và áp dụng các công nghệ mới.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="card">
+            <h2 class="section-title">Dự Án</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    
+                    <div class="project-info">
+                        <h3>E-commerce Platform</h3>
+                        <p>Xây dựng một nền tảng thương mại điện tử hoàn chỉnh với React và Node.js, tích hợp thanh toán, quản lý đơn hàng và hệ thống đánh giá.</p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    
+                    <div class="project-info">
+                        <h3>App Quản Lý Tài Chính</h3>
+                        <p>Phát triển ứng dụng web giúp người dùng theo dõi chi tiêu, lập ngân sách và phân tích tài chính cá nhân.</p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    
+                    <div class="project-info">
+                        <h3>Landing Page Startup</h3>
+                        <p>Thiết kế và phát triển landing page hiệu quả cao cho một startup công nghệ, tối ưu hóa cho tỷ lệ chuyển đổi.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="card">
+            <h2 class="section-title">Liên Hệ</h2>
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="name">Họ tên:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="subject">Chủ đề:</label>
+                    <input type="text" id="subject" name="subject" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Tin nhắn:</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Gửi tin nhắn</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>© 2025 Nguyễn Như Quỳnh. Tất cả các quyền được bảo lưu.</p>
+    </footer>
 </body>
 </html>
