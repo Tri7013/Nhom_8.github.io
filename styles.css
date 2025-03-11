@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+}
+
+header {
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 3em;
+    letter-spacing: 2px;
+    margin: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    padding: 40px;
+    margin-top: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.profile-info {
+    display: flex;
+    align-items: center;
+}
+
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 30px;
+    object-fit: cover;
+    border: 5px solid #2575fc;
+}
+
+.info h2 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: #2575fc;
+}
+
+.info p {
+    font-size: 1.2em;
+    margin: 8px 0;
+    color: #555;
+}
+
+.study {
+    background-color: #fff;
+    padding: 40px;
+    margin-top: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.study h2 {
+    text-align: center;
+    font-size: 2.8em;
+    color: #ff5d57;
+    margin-bottom: 30px;
+}
+
+.study ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.study li {
+    font-size: 1.3em;
+    line-height: 1.8;
+    margin: 15px 0;
+    padding-left: 30px;
+    position: relative;
+}
+
+.study li::before {
+    content: '⭐';
+    color: #ff5d57;
+    font-size: 1.8em;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+footer p {
+    font-size: 1.2em;
+}
